@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/start_download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="start download"/>
+
+    <Button
+        android:id="@+id/pause_download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pause_download"/>
+
+    <Button
+        android:id="@+id/cancel_download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cancel_download"/>
+</LinearLayout>
